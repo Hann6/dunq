@@ -29,7 +29,7 @@ export default function Hero() {
           <div className="ring inner" />
           <div className="ring core" />
           <div className="hero-shoe">
-            <img src="/dummy.png" alt="" />
+            <img src={`${import.meta.env.BASE_URL}dummy.png`} alt="" />
           </div>
           <div className="hero-stats container">
             <span><strong>03</strong>shoes</span>

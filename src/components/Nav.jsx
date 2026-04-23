@@ -14,7 +14,7 @@ export default function Nav() {
     <header className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-inner">
         <a href="#top" className="nav-logo" aria-label="DUNQ home">
-          <img src="/dunq_logo.jpg" alt="DUNQ" />
+          <img src={`${import.meta.env.BASE_URL}dunq_logo.jpg`} alt="DUNQ" />
           <span>DUNQ</span>
         </a>
         <nav className="nav-links" aria-label="Primary">

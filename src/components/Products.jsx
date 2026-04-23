@@ -46,7 +46,7 @@ function ProductCard({ item, index }) {
         <div className="card-media">
           <span className="card-badge">{item.badge}</span>
           <span className="card-id">№ {String(index + 1).padStart(2, '0')}</span>
-          <img src="/dummy.png" alt={item.name} />
+          <img src={`${import.meta.env.BASE_URL}dummy.png`} alt={item.name} />
         </div>
 
         <div className="card-head">
