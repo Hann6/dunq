@@ -1,3 +1,5 @@
+import { ShopeeIcon, TikTokIcon, InstagramIcon } from './icons.jsx'
+
 export default function Footer() {
   return (
     <footer id="contact" className="footer">
@@ -8,7 +10,7 @@ export default function Footer() {
           <div className="footer-col footer-about">
             <h4>The Project</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. DUNQ is a small
+              DUNQ is a small 
               basketball project — handmade drops, player-tested, lovingly overbuilt.
             </p>
           </div>
@@ -17,12 +19,15 @@ export default function Footer() {
             <h4>Shop</h4>
             <ul>
               <li>
-                <a href="https://shopee.co.id/dunq_project" target="_blank" rel="noreferrer">
-                  Shopee
+                <a className="link-icon" href="https://shopee.co.id/dunq_project" target="_blank" rel="noreferrer">
+                  <ShopeeIcon /> Shopee
                 </a>
               </li>
-              <li><a href="#shoes">Shoes</a></li>
-              <li><a href="#socks">Socks</a></li>
+              <li>
+                <a className="link-icon" href="https://www.tiktok.com/@dunqproject.idn" target="_blank" rel="noreferrer">
+                  <TikTokIcon /> TikTok
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -30,13 +35,13 @@ export default function Footer() {
             <h4>Follow</h4>
             <ul>
               <li>
-                <a href="https://www.instagram.com/dunq.project/" target="_blank" rel="noreferrer">
-                  Instagram
+                <a className="link-icon" href="https://www.instagram.com/dunq.project/" target="_blank" rel="noreferrer">
+                  <InstagramIcon /> Instagram
                 </a>
               </li>
               <li>
-                <a href="https://www.tiktok.com/@dunqproject.idn" target="_blank" rel="noreferrer">
-                  TikTok
+                <a className="link-icon" href="https://www.tiktok.com/@dunqproject.idn" target="_blank" rel="noreferrer">
+                  <TikTokIcon /> TikTok
                 </a>
               </li>
             </ul>

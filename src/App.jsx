@@ -18,7 +18,7 @@ export default function App() {
             'RISE ABOVE',
             'BUILT FOR FLIGHT',
             'DUNQ PROJECT',
-            'EST. 2025',
+            'EST. 2026',
             'COURT / STREET',
             'LACE UP'
           ]}

@@ -729,6 +729,16 @@ section {
   display: inline-block;
 }
 .footer-col a:hover { color: var(--accent); padding-left: 6px; }
+.footer-col a.link-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-col a.link-icon svg {
+  flex: 0 0 auto;
+  transition: transform 250ms var(--ease);
+}
+.footer-col a.link-icon:hover svg { transform: translateX(2px) rotate(-4deg); }
 .footer-about p { color: var(--ink-dim); font-size: 14px; line-height: 1.6; margin: 0; max-width: 42ch; }
 
 .footer-bottom {
