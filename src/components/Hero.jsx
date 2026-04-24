@@ -25,8 +25,7 @@ export default function Hero() {
             the <span className="accent">rim.</span>
           </h1>
           <p className="hero-sub">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. DUNQ is a basketball
-            project stitched from asphalt, hardwood, and Saturday afternoons — three shoes,
+            DUNQ is a basketball project stitched from asphalt, hardwood, and Saturday afternoons — three shoes,
             two socks, zero excuses.
           </p>
           <div className="hero-actions">
