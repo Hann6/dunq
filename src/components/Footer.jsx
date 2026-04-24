@@ -16,18 +16,29 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Shop</h4>
             <ul>
+              <li>
+                <a href="https://shopee.co.id/dunq_project" target="_blank" rel="noreferrer">
+                  Shopee
+                </a>
+              </li>
               <li><a href="#shoes">Shoes</a></li>
               <li><a href="#socks">Socks</a></li>
-              <li><a href="#shoes">New arrivals</a></li>
             </ul>
           </div>
 
           <div className="footer-col">
             <h4>Follow</h4>
             <ul>
-              <li><a href="https://www.instagram.com/dunq.project/" target="_blank" rel="noreferrer">Instagram</a></li>
-              <li><a href="#">TikTok</a></li>
-              <li><a href="#">YouTube</a></li>
+              <li>
+                <a href="https://www.instagram.com/dunq.project/" target="_blank" rel="noreferrer">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@dunqproject.idn" target="_blank" rel="noreferrer">
+                  TikTok
+                </a>
+              </li>
             </ul>
           </div>
 

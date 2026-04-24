@@ -20,10 +20,16 @@ export default function Nav() {
         <nav className="nav-links" aria-label="Primary">
           <a href="#shoes">Shoes</a>
           <a href="#socks">Socks</a>
-          <a href="#manifesto">Manifesto</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a href="#shoes" className="nav-cta">Shop — 0</a>
+        <a
+          href="https://shopee.co.id/dunq_project"
+          target="_blank"
+          rel="noreferrer"
+          className="nav-cta"
+        >
+          Shop on Shopee →
+        </a>
       </div>
     </header>
   )

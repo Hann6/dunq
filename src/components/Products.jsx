@@ -65,8 +65,13 @@ function ProductCard({ item, index }) {
 
         <div className="card-foot">
           <span className="card-color">{item.colorway}</span>
-          <a href={`#${item.id}`} className="card-cta">
-            Add to cart <span className="arrow">→</span>
+          <a
+            href="https://shopee.co.id/dunq_project"
+            target="_blank"
+            rel="noreferrer"
+            className="card-cta"
+          >
+            Buy on Shopee <span className="arrow">→</span>
           </a>
         </div>
       </div>
