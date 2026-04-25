@@ -25,8 +25,9 @@ export default function Hero() {
             the <span className="accent">rim.</span>
           </h1>
           <p className="hero-sub">
-            DUNQ is a basketball project stitched from asphalt, hardwood, and Saturday afternoons — three shoes,
-            two socks, zero excuses.
+            DUNQ dirancang untuk pemain yang butuh grip kuat, empuk, dan responsif di
+            lapangan. Mulai dari drive sampai lompat buat rebound — sepatu ini dibuat
+            supaya kaki tetap stabil, nyaman, dan responsif.
           </p>
           <div className="hero-actions">
             <a
@@ -75,7 +76,7 @@ export default function Hero() {
             {shoes.map((s, i) => (
               <img
                 key={s.id}
-                src={`${import.meta.env.BASE_URL}dummy.png`}
+                src={`${import.meta.env.BASE_URL}${s.image || 'dummy.png'}`}
                 alt={s.name}
                 className={`hero-shoe-img ${i === idx ? 'is-active' : ''}`}
               />

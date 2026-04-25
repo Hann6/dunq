@@ -1,57 +1,62 @@
 export const shoes = [
   {
-    id: 'rise-01',
-    name: 'Rise 01',
-    tagline: 'The signature silhouette.',
+    id: 'hero-blue',
+    name: 'Hero Blue',
+    image: 'products/hero-blue.png',
+    tagline: 'Cengkeraman maksimal di lapangan.',
     price: 189,
-    colorway: 'Blacktop / Flame',
-    badge: 'SIGNATURE',
+    colorway: 'Hero Blue',
+    badge: 'GRIPLOCK',
     blurb:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Built for the player who takes off from the free-throw line and never looks back.',
-    specs: ['Carbon-weave plate', 'Dual-density foam', 'Street-court outsole']
+      'DUNQ GripLock Outsole — terbuat dari rubber compound berkualitas dengan pola traksi khusus untuk cengkeraman maksimal, anti slip, dan stabil saat stop mendadak atau change direction.',
+    specs: ['GripLock Outsole', 'ReactFoam Midsole', 'Mesh + Synthetic Upper']
   },
   {
-    id: 'strike',
-    name: 'Strike',
-    tagline: 'Lockdown performance.',
+    id: 'mad-black',
+    name: 'Mad Black',
+    image: 'products/mad-black.png',
+    tagline: 'Empuk, eksplosif, energy return.',
     price: 159,
-    colorway: 'Court White / Shadow',
-    badge: 'PERFORMANCE',
+    colorway: 'Mad Black',
+    badge: 'REACTFOAM',
     blurb:
-      'Sed do eiusmod tempor incididunt ut labore. Low-to-the-ground feel with a cage that wraps the foot like a second skin.',
-    specs: ['TPU lockdown cage', 'Responsive cushion', 'Herringbone traction']
+      'DUNQ ReactFoam Midsole — EVA foam responsif yang empuk untuk redam benturan dan memberi energy return agar gerakan lebih eksplosif dan nyaman.',
+    specs: ['GripLock Outsole', 'ReactFoam Midsole', 'Mesh + Synthetic Upper']
   },
   {
-    id: 'classic',
-    name: 'Classic',
-    tagline: 'Everyday heat.',
+    id: 'speedy-green',
+    name: 'Speedy Green',
+    image: 'products/speedy-green.png',
+    tagline: 'Ringan, breathable, nyaman seharian.',
     price: 129,
-    colorway: 'Bone / Orange',
-    badge: 'LIFESTYLE',
+    colorway: 'Speedy Green',
+    badge: 'BREATHABLE',
     blurb:
-      'Duis aute irure dolor in reprehenderit. Off-court comfort with the bones of a basketball shoe — heritage lines, modern ride.',
-    specs: ['Premium leather upper', 'Foam midsole', 'Gum rubber sole']
+      'Upper dari mesh + synthetic support yang ringan dan breathable. Insole foam ergonomis yang empuk dan nyaman dipakai lama, baik di lapangan maupun di jalanan.',
+    specs: ['GripLock Outsole', 'ReactFoam Midsole', 'Mesh + Synthetic Upper']
   }
 ]
 
 export const socks = [
   {
-    id: 'grip-sock',
-    name: 'Grip Sock',
+    id: 'xstep',
+    name: 'XStep',
+    image: 'products/xstep.png',
     tagline: 'Zero slip. All lift.',
     price: 22,
-    colorway: 'Black / Flame',
+    colorway: 'Aqua Blaze',
     badge: 'ON COURT',
     blurb:
       'Ut enim ad minim veniam. Silicone grip pads and arch compression — the final millimeter between your foot and the floor.',
     specs: ['Silicone grip print', 'Arch compression', 'Mesh ventilation']
   },
   {
-    id: 'crew-sock',
-    name: 'Crew Sock',
+    id: 'primemotion',
+    name: 'PrimeMotion',
+    image: 'products/primemotion.png',
     tagline: 'Soft landings, loud fits.',
     price: 14,
-    colorway: 'Bone / Black',
+    colorway: 'Pink / Aqua / White / Black',
     badge: 'EVERYDAY',
     blurb:
       'Excepteur sint occaecat cupidatat non proident. Chunky ribbed crew with a cushioned footbed and the DUNQ mark down the shin.',

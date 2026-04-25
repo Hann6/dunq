@@ -23,8 +23,21 @@ export default function App() {
             'LACE UP'
           ]}
         />
-        <Products id="shoes" eyebrow="Footwear / 03" title="Shoes" items={shoes} />
-        <Products id="socks" eyebrow="Accessories / 02" title="Socks" items={socks} compact />
+        <Products
+          id="shoes"
+          eyebrow="Footwear / 03"
+          title="Shoes"
+          items={shoes}
+          description="Setiap pasang DUNQ dirancang untuk performa di lapangan — GripLock untuk traksi, ReactFoam untuk energy return, dan upper breathable supaya kaki tetap nyaman."
+        />
+        <Products
+          id="socks"
+          eyebrow="Accessories / 02"
+          title="Socks"
+          items={socks}
+          description="Kaos kaki basket dengan grip dan kompresi yang dirancang untuk lapangan. Hadir dalam beberapa colorway."
+          compact
+        />
         <Quote
           text="Sed ut perspiciatis unde omnis iste natus error. Gravity is a suggestion. Dunq anyway."
           attribution="Coach, somewhere on a playground"

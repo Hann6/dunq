@@ -10,8 +10,9 @@ export default function Footer() {
           <div className="footer-col footer-about">
             <h4>The Project</h4>
             <p>
-              DUNQ is a small 
-              basketball project — handmade drops, player-tested, lovingly overbuilt.
+              DUNQ dirancang untuk pemain yang butuh grip kuat, empuk, dan responsif
+              di lapangan. Mulai dari drive sampai lompat buat rebound — sepatu ini
+              dibuat supaya kaki tetap stabil, nyaman, dan responsif.
             </p>
           </div>
 
