@@ -2,7 +2,7 @@ import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
 import Marquee from './components/Marquee.jsx'
 import Products from './components/Products.jsx'
-import Quote from './components/Quote.jsx'
+import Reviews from './components/Reviews.jsx'
 import Footer from './components/Footer.jsx'
 import './App.css'
 import { shoes, socks } from './data/products.js'
@@ -15,12 +15,12 @@ export default function App() {
         <Hero />
         <Marquee
           items={[
-            'RISE ABOVE',
-            'BUILT FOR FLIGHT',
             'DUNQ PROJECT',
             'EST. 2026',
             'COURT / STREET',
-            'LACE UP'
+            'LEGACY',
+            'RISE ABOVE',
+            'BUILT FOR FLIGHT'
           ]}
         />
         <Products
@@ -28,7 +28,7 @@ export default function App() {
           eyebrow="Footwear / 03"
           title="Shoes"
           items={shoes}
-          description="Setiap pasang DUNQ dirancang untuk performa di lapangan — GripLock untuk traksi, ReactFoam untuk energy return, dan upper breathable supaya kaki tetap nyaman."
+          description="Dirancang untuk performa di lapangan — grip kuat, empuk, responsif."
         />
         <Products
           id="socks"
@@ -38,11 +38,7 @@ export default function App() {
           description="Kaos kaki basket dengan grip dan kompresi yang dirancang untuk lapangan. Hadir dalam beberapa colorway."
           compact
         />
-        <Quote
-          text="Sed ut perspiciatis unde omnis iste natus error. Gravity is a suggestion. Dunq anyway."
-          attribution="Coach, somewhere on a playground"
-          variant="inverse"
-        />
+        <Reviews />
         <Footer />
       </main>
     </div>

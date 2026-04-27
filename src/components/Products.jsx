@@ -51,19 +51,13 @@ function ProductCard({ item, index }) {
             <h3 className="card-name">{item.name}</h3>
             <p className="card-tagline">{item.tagline}</p>
           </div>
-          <div className="card-price">{item.price}</div>
         </div>
 
         <p className="card-blurb">{item.blurb}</p>
 
-        <ul className="card-specs">
-          {item.specs.map((spec) => <li key={spec}>{spec}</li>)}
-        </ul>
-
         <div className="card-foot">
-          <span className="card-color">{item.colorway}</span>
           <a
-            href="https://shopee.co.id/dunq_project"
+            href={item.shopeeUrl || 'https://shopee.co.id/dunq_project'}
             target="_blank"
             rel="noreferrer"
             className="card-cta"

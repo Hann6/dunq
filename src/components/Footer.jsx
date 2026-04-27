@@ -8,7 +8,7 @@ export default function Footer() {
 
         <div className="footer-grid">
           <div className="footer-col footer-about">
-            <h4>The Project</h4>
+            <h4>DUNQ Project</h4>
             <p>
               DUNQ dirancang untuk pemain yang butuh grip kuat, empuk, dan responsif
               di lapangan. Mulai dari drive sampai lompat buat rebound — sepatu ini
@@ -48,14 +48,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="footer-col">
-            <h4>Help</h4>
-            <ul>
-              <li><a href="#">Shipping</a></li>
-              <li><a href="#">Returns</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
         </div>
 
         <div className="footer-bottom">
