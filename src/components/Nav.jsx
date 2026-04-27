@@ -22,14 +22,6 @@ export default function Nav() {
           <a href="#socks">Socks</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a
-          href="https://shopee.co.id/dunq_project"
-          target="_blank"
-          rel="noreferrer"
-          className="nav-cta"
-        >
-          Shop on Shopee →
-        </a>
       </div>
     </header>
   )
